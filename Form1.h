@@ -116,6 +116,28 @@ namespace CppCLRWinFormsProject {
             button2->UseVisualStyleBackColor = false; // required for custom BackColor to show
             button2->Click += gcnew EventHandler(this, &Form1::helpButton_Click);
 
+
+
+
+
+            button3 = gcnew System::Windows::Forms::Button();
+            button3->Text = L"!";
+            button3->BackColor = Color::FromArgb(100, 160, 255); // red/pink accent
+            button3->ForeColor = Color::White;
+            button3->Font = gcnew System::Drawing::Font("Segoe UI", 14, System::Drawing::FontStyle::Bold);
+            button3->FlatStyle = FlatStyle::Flat;
+            button3->FlatAppearance->BorderSize = 0;
+            button3->UseVisualStyleBackColor = false; // required for custom BackColor to show
+            button3->Click += gcnew EventHandler(this, &Form1::physicsInfo_Click);
+
+            button3->Anchor = AnchorStyles::Bottom | AnchorStyles::Right;
+
+            button3->Location = System::Drawing::Point(860, 400);
+
+
+            this->Controls->Add(button3);
+
+
             // ── colour scheme: buttercup yellow ────────────────────────────────────
             this->BackColor = Color::FromArgb(255, 245, 180); // warm buttercup yellow for the form
             panel1->BackColor = Color::FromArgb(255, 252, 210); // slightly lighter yellow for the wave panel
@@ -185,7 +207,10 @@ namespace CppCLRWinFormsProject {
         System::Windows::Forms::Label^ label4;      // title at the top
         System::Windows::Forms::Label^ listHintLabel; //
         System::Windows::Forms::Button^ button1;     // star info button
-        System::Windows::Forms::Button^ button2;    //help button
+        System::Windows::Forms::Button^ button2;
+        //help button
+
+        System::Windows::Forms::Button^ button3;
 
 
         System::Windows::Forms::PictureBox^ violinImage; //violin Image
@@ -274,6 +299,9 @@ namespace CppCLRWinFormsProject {
                 MessageBox::Show(ex->Message);
             }
         }
+
+
+
 
         // ── timer1_Tick ────────────────────────────────────────────────────────────
         // Called every 30 ms. Advances the animation clock and requests a repaint.
@@ -488,6 +516,34 @@ namespace CppCLRWinFormsProject {
                 MessageBoxButtons::OK,
                 MessageBoxIcon::Information);
         }
+
+
+
+        void physicsInfo_Click(Object^ sender, EventArgs^ e)
+        {
+            MessageBox::Show(
+                L"Wave Superposition & Interference !!!\n\n"
+                L"Superposition Principle:\n"
+                L"When two or more waves meet, the resulting wave is the sum of their displacements at each point\n\n"
+
+
+                L"Interference\n"
+                L"This is what happens when waves overlap.\n\n"
+                L"There are two types:\n"
+
+                L"  Constructive Interference(MAX)\n"
+                L"Waves are in phase -> they add together\n"
+                L"Result : Bigger Amplitude \n\n"
+
+
+                L"  Destructive Interference(MIN)\n"
+                L"Waves are out of phase -> they cancel each other\n"
+                L"Result : Smaller Amplitude \n\n",
+                L"Wave Physics Explained",          // dialog title bar text
+                MessageBoxButtons::OK,
+                MessageBoxIcon::Information);
+        }
+
 
         // ── starButton_Click ──────────────────────────────────────────────────────
         // Shows a description of whichever instrument is currently selected.
@@ -883,7 +939,3 @@ namespace CppCLRWinFormsProject {
     }; // ── end of Form1 class ───────────────────────────────────────────────────────
 }      // ── end of CppCLRWinFormsProject namespace ────────────────────────────────────
 
-
-
-
-//this is the test for github
