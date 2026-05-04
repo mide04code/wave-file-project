@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|solutionrelative:WAVE DEMO FILE SOUND\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|solutionrelative:WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A7D28F6-09EC-4039-A3EE-DA348C932EA5}|WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND.vcxproj|solutionrelative:WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CppCLR_WinFormsProject.cpp",
+              "DocumentMoniker": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp",
+              "RelativeDocumentMoniker": "WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp",
+              "ToolTip": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp",
+              "RelativeToolTip": "WAVE DEMO FILE SOUND\\CppCLR_WinFormsProject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T22:44:43.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.h",
+              "DocumentMoniker": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\Form1.h",
+              "RelativeDocumentMoniker": "WAVE DEMO FILE SOUND\\Form1.h",
+              "ToolTip": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\Form1.h",
+              "RelativeToolTip": "WAVE DEMO FILE SOUND\\Form1.h",
+              "ViewState": "AgIAAEoEAAAAAAAAAAAkwFAEAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-25T19:11:50.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WaveSuperPositionFunctions.h",
+              "DocumentMoniker": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h",
+              "RelativeDocumentMoniker": "WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h",
+              "ToolTip": "C:\\Users\\Ayomide\\source\\repos\\WAVE DEMO FILE SOUND\\WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h",
+              "RelativeToolTip": "WAVE DEMO FILE SOUND\\WaveSuperPositionFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-25T19:12:15.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
